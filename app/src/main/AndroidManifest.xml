@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.f55121056_mylistview">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.F55121056_MyListView"
+        tools:targetApi="31">
+        <activity
+            android:name=".Supomo"
+            android:exported="false" />
+        <activity
+            android:name=".Sudirman"
+            android:exported="false" />
+        <activity
+            android:name=".Soekarno"
+            android:exported="false" />
+        <activity
+            android:name=".Mohammad_Hatta"
+            android:exported="false" />
+        <activity
+            android:name=".Ki_Hadjar_Dewantara"
+            android:exported="false" />
+        <activity
+            android:name=".Gatot_Subroto"
+            android:exported="false" />
+        <activity
+            android:name=".Bung_Tomo"
+            android:exported="false" />
+        <activity
+            android:name=".Ahmad_Yani"
+            android:exported="false" />
+        <activity
+            android:name=".Ahmad_Dahlan"
+            android:exported="false" />
+        <activity
+            android:name=".detail_nad"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
